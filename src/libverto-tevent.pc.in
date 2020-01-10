@@ -1,0 +1,11 @@
+prefix=@prefix@
+libdir=@libdir@
+includedir=@includedir@
+exec_prefix=@exec_prefix@
+ 
+Name: libverto-tevent
+Description: Event loop abstraction interface (tevent module)
+Version: @VERSION@
+Libs: -L${libdir} -lverto-tevent
+Cflags: -I${includedir}
+Requires.private: libverto
